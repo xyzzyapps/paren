@@ -1,0 +1,7 @@
+A helper imported by greet.hsl. Its code is included before the importer.
+
+(
+def twice(message):
+    print(message)
+    print(message)
+)

@@ -1,0 +1,15 @@
+---
+interpreter: g++
+---
+C++ is compiled, then the binary is run. Use clang++ in the frontmatter when
+that is the compiler on PATH. Angle brackets in the include sit inside the
+parenthesis span.
+
+(
+#include <iostream>
+
+int main() {
+    std::cout << "hello from c++\n"; // )
+    return 0;
+}
+)

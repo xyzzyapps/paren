@@ -1,0 +1,14 @@
+---
+interpreter: gcc
+---
+C is compiled, then the binary is run. Angle brackets in the include sit
+inside the parenthesis span, so they are code rather than a second span.
+
+(
+#include <stdio.h>
+
+int main(void) {
+    printf("hello from c\n"); /* ) */
+    return 0;
+}
+)

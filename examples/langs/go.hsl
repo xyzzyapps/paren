@@ -1,0 +1,15 @@
+---
+interpreter: go
+---
+Go is compiled by `go run`. Block comments hide delimiters too.
+
+(
+package main
+
+import "fmt"
+
+func main() {
+    /* ) */
+    fmt.Println("hello from go")
+}
+)

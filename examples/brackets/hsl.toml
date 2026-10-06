@@ -1,0 +1,4 @@
+# Project config. HSL looks here, then in parent directories, and stops at
+# go.mod or .git. It does not read a home-directory config.
+delimiters = ["[]"]
+line_comments = ["#"]

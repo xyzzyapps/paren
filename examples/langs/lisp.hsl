@@ -1,0 +1,10 @@
+---
+interpreter: sbcl
+---
+Common Lisp prints one line. A semicolon comment hides a closer, and so does
+a block comment. Use clisp or ecl in the frontmatter if that is the image on PATH.
+
+(
+(format t "hello from lisp~%") ; )
+#| ) |#
+)

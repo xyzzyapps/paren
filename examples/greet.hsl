@@ -1,0 +1,23 @@
+---
+interpreter: python
+imports:
+  - twice.hsl
+---
+A small HSL document. The script is only what sits inside \(parentheses\)
+or \<angle brackets\>. Everything else is prose and is ignored.
+
+The block above is YAML frontmatter. imports are other HSL documents,
+transpiled first. interpreter is the program used by `hsl run` when that
+program is on PATH.
+
+Store a greeting with (greeting = "hello from hsl").
+
+Show it once: (print(greeting)).
+
+twice comes from the import: (twice(greeting)).
+
+Angle brackets mark a span the same way: <print("and from angle brackets")>.
+
+Prose may mention delimiters by escaping them, as in \(this is not code\).
+A comparison written as code keeps its \< sign, because inside parentheses
+only parentheses count: (print("3 < 4 is", 3 < 4)).

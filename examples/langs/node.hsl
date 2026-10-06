@@ -1,0 +1,9 @@
+---
+interpreter: node
+---
+Node uses slash comments. A closer inside // is part of the comment, so the
+span stays open until the parenthesis on the last line.
+
+(
+console.log("hello from node"); // )
+)

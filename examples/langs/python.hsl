@@ -1,0 +1,9 @@
+---
+interpreter: python
+---
+This program prints one line. The closer inside the hash comment stays prose
+to the transpiler and stays a comment in Python.
+
+(
+print("hello from python")  # )
+)

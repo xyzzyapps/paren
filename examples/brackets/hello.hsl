@@ -1,0 +1,7 @@
+---
+interpreter: python
+---
+Squares are the only spans in this directory because hsl.toml says so.
+Parentheses in the prose (like these) stay prose.
+
+[print("hello from brackets")]
